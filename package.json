@@ -1,0 +1,32 @@
+{
+  "name": "@inumakieu/chouten-cli",
+  "version": "1.0.9",
+  "description": "A cli to allow for easy module development for Chouten",
+  "main": "src/index.js",
+  "bin": {
+    "@inumakieu/chouten-cli": "bin/chouten-cli",
+    "chouten-cli": "bin/chouten-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "chouten-cli"
+  ],
+  "author": "Inumaki",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "console-log-colors": "^0.4.0",
+    "esm": "^3.2.18",
+    "inquirer": "^9.2.7",
+    "jest": "^22.1.4",
+    "jimp": "^0.22.8",
+    "puppeteer": "18.1.0",
+    "terminal-image": "^2.0.0"
+  }
+}
